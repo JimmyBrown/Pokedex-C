@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFE638E12461D12600740CE4 /* DVMPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE638E02461D12600740CE4 /* DVMPokemon.m */; };
 		FBCB8F912461177F001D8C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB8F902461177F001D8C7C /* AppDelegate.m */; };
 		FBCB8F942461177F001D8C7C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCB8F932461177F001D8C7C /* SceneDelegate.m */; };
 		FBCB8F9A2461177F001D8C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCB8F982461177F001D8C7C /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFE638DF2461D12600740CE4 /* DVMPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMPokemon.h; sourceTree = SOURCE_ROOT; };
+		BFE638E02461D12600740CE4 /* DVMPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMPokemon.m; sourceTree = SOURCE_ROOT; };
 		FBCB8F8C2461177F001D8C7C /* Pokedex-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCB8F8F2461177F001D8C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBCB8F902461177F001D8C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,8 +64,8 @@
 				FBCB8FAC24611EDD001D8C7C /* Model */,
 				FBCB8FAB24611ED3001D8C7C /* Model Controller */,
 				FBCB8FAA24611EC1001D8C7C /* View Controllers */,
-				FBCB8FA824611E55001D8C7C /* Resources */,
 				FBCB8FA924611EAC001D8C7C /* Storyboards */,
+				FBCB8FA824611E55001D8C7C /* Resources */,
 			);
 			path = "Pokedex-C";
 			sourceTree = "<group>";
@@ -107,6 +110,8 @@
 		FBCB8FAC24611EDD001D8C7C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BFE638DF2461D12600740CE4 /* DVMPokemon.h */,
+				BFE638E02461D12600740CE4 /* DVMPokemon.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				FBCB8F912461177F001D8C7C /* AppDelegate.m in Sources */,
 				FBCB8FA224611782001D8C7C /* main.m in Sources */,
 				FBCB8F942461177F001D8C7C /* SceneDelegate.m in Sources */,
+				BFE638E12461D12600740CE4 /* DVMPokemon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
